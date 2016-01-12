@@ -299,12 +299,11 @@ hr {
 .intro {
 	width:100%;
 	position:relative;	
-	background: url(../img/bg1.jpg) no-repeat top center;
 	background-size: cover;
 }
 
 #intro.intro {
-	padding:200px 0 150px 0;
+	padding:2px 0 1px 0;
 }
 
 .intro .slogan {
@@ -326,7 +325,7 @@ hr {
 }
 
 .intro-text {
-    font-size: 18px;
+    font-size: 10px;
 }
 
 .intro .slogan h2 {
