@@ -420,35 +420,12 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 	background: #fff;
 }
 
-
-/* ===========================
---- Footer
-============================ */
-
-footer {
-	text-align: center;
-	padding: 50px 0 30px;
-	
-}
-
-footer p {
-	color: #f8f8f8;
-}
-
-footer a {
-	color: #fff;
-}
-
-footer a:hover {
-	color: #ccc;
-}
-
 /* ==========================
 Parallax
 ============================= */
 
 #separator {	
-	background-image: url(../img/parallax-bg.jpg);
+	background-color: #d43076;
 }
 
 #separator .icon {
@@ -639,3 +616,57 @@ a.btn:hover {
 	}
 	
 }
+
+
+/* ===========================
+--- Subscribe
+============================ */
+
+.subscribe-social
+{
+	background-color: #d43076;
+	padding: 10px 0px 5px;
+}
+
+.social
+{
+	list-style: none;
+	display: inline-block;
+}
+.social li
+{
+	display: inline-block;
+	margin: 0px 5px;
+    position: relative;
+    left: 400px;
+}
+.social li a
+{
+	color: #fff;
+	font-size: 35px;
+	line-height: 0px !important;
+}
+
+.address
+{
+	padding: 60px 0px;
+	background-color: rgba(0,0,0,0.1)
+}
+.info p
+{
+	font-family: "Source Sans Pro",sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #888;
+}
+.btn-or
+{
+	background-color: #fff !important;
+	border: 1px solid #fff !important;
+	color: #CB5750 !important;
+}
+.form-control::-webkit-input-placeholder { color: white !important; }
+.form-control:-moz-placeholder { color: white !important; }
+.form-control::-moz-placeholder { color: white !important; }
+.form-control:-ms-input-placeholder { color: white !important; }
