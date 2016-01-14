@@ -62,7 +62,7 @@ a:focus {
 }
 
 img.img-responsive {
-	margin-bottom: 1px;
+	margin-bottom: 20px;
 }
 
 
@@ -248,8 +248,8 @@ hr {
 ============================ */
 
 .home-section {
-    padding-top: 60px;
-    padding-bottom: 70px;
+    padding-top: 120px;
+    padding-bottom: 110px;
 	display:block;
     position:relative;
     z-index:120;

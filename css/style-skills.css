@@ -205,7 +205,8 @@ header .intro-text .skills {
 
 
 section {
-    padding-top: 13px;
+    
+    padding: 70px 0;
 }
 
 .icon-text span {
@@ -214,7 +215,7 @@ section {
 section#call-to-action {
     background-color: #d43076;
     color: white;
-    height: 100px;
+  
 }
 
 section h2 {
