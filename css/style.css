@@ -62,7 +62,7 @@ a:focus {
 }
 
 img.img-responsive {
-	margin-bottom: 20px;
+	margin-bottom: 1px;
 }
 
 
@@ -248,8 +248,8 @@ hr {
 ============================ */
 
 .home-section {
-    padding-top: 120px;
-    padding-bottom: 110px;
+    padding-top: 60px;
+    padding-bottom: 70px;
 	display:block;
     position:relative;
     z-index:120;
@@ -669,4 +669,107 @@ a.btn:hover {
 .form-control::-webkit-input-placeholder { color: white !important; }
 .form-control:-moz-placeholder { color: white !important; }
 .form-control::-moz-placeholder { color: white !important; }
-.form-control:-ms-input-placeholder { color: white !important; }
+.form-control:-ms-input-placeholder { color: white !important; 
+}
+
+.STcontact {
+    text-align: center;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 24px;
+    font-weight: normal;
+    margin: 20px 0 30px 0;
+
+}
+.STcontact-button { 
+    color: #FFF;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    font-size: 14px; 
+    font-size: 1.4rem; 
+    line-height: 14px; 
+    margin-bottom: 10px; 
+    text-align: center;
+    width: 700px;
+}
+	
+.STcontact-button a { 
+    background-color: #d43076; 
+    color: #FFF;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    font-size: 14px; 
+    font-size: 1.4rem; 
+    line-height: 14px; 
+	 margin-bottom: 10px; 
+    text-align: center;
+    padding: 16px 0 16px 0;
+    display: block;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.STcontact-button a:hover 
+{
+    background-color: #888; 
+    color: #FFF;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    font-size: 14px; 
+    font-size: 1.4rem; 
+    line-height: 14px;
+	 text-align: center; 
+    padding: 16px 0 16px 0;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+
+.row { 
+    width: 100%; 
+    max-width: 980px; 
+    min-width: 727px; 
+    margin: 0 auto 0; 
+    position: relative;
+}
+
+.row .row 
+{ 
+    min-width: 0; 
+}
+	
+.column, .columns 
+{ 
+    margin-left: 4.4%; 
+    float: right;
+    min-height: 1px; 
+    position: relative; 
+}
+.column:first-child, .columns:first-child 
+{ 
+    margin-left: 0; 
+}
+	[class*="column"] + [class*="column"]:last-child { float: right; }
+	[class*="column"] + [class*="column"].end { float: left; }
+	
+	.row .one 		{ width: 4.3%; }
+	.row .two 		{ width: 13%; }
+	.row .three 	{ width: 21.679%; }
+	.row .four 		{ width: 30.37%; }
+	.row .five 		{ width: 39.1%; }
+	.row .six 		{ width: 47.8%; }
+	.row .seven 	{ width: 56.5%; }
+	.row .eight 	{ width: 65.2%; }
+	.row .nine 		{ width: 73.9%; }
+	.row .ten 		{ width: 82.6%; }
+	.row .eleven 	{ width: 91.3%; }
+	.row .twelve 	{ width: 100%; 
+}
