@@ -681,7 +681,7 @@ a.btn:hover {
     font-size: 1.6rem;
     line-height: 24px;
     font-weight: normal;
-    margin: 20px 0 30px 0;
+/*    margin: 20px 0 30px 0;*/
 
 }
 .STcontact-button { 
@@ -693,7 +693,6 @@ a.btn:hover {
     line-height: 14px; 
     margin-bottom: 10px; 
     text-align: center;
-    width: 700px;
 }
 	
 .STcontact-button a { 
@@ -735,7 +734,7 @@ a.btn:hover {
 
 .row1 { 
     width: 100%; 
-    max-width: 980px; 
+    max-width: 100px; 
     min-width: 727px; 
     margin: 0 auto 0; 
     position: relative;
