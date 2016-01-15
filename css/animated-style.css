@@ -8,9 +8,15 @@ Primary style
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 a {
   text-decoration: none;
+}
+
+.cd-title {
+  position: relative;
+  height: 160px;
+  line-height: 230px;
+  text-align: center;
 }
 .cd-title h1 {
   font-size: 2.4rem;
@@ -30,6 +36,7 @@ a {
     font-size: 3rem;
   }
 }
+
 .cd-intro {
   width: 90%;
   max-width: 768px;
@@ -51,7 +58,7 @@ a {
 }
 
 .cd-headline {
-  font-size: 3rem;
+  font-size: 12px;
   line-height: 1.2;
 }
 @media only screen and (min-width: 768px) {

@@ -11,33 +11,6 @@
 Primary style
 
 -------------------------------- */
-
-*, *::after, *::before {
-	@include box-sizing(border-box);
-}
-
-html * {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-html {
-	font-size: 62.5%;
-}
-
-body {
-	font: {
-		size: 1.6rem;
-		family: $primary-font; // variables inside partials > _variables.scss
-	}
-	color: $color-1;
-	background-color: $color-3;
-}
-
-a {
-	text-decoration: none;
-}
-
 .cd-title {
 	position: relative;
 	height: 160px;
@@ -82,8 +55,8 @@ a {
 }
 
 .cd-headline {
-	font-size: 3rem;
-	line-height: 1.2;
+	font-size: 12px;
+	line-height: 0.1;
 
 	@include MQ(M) {
 		font-size: 4.4rem;
@@ -104,8 +77,6 @@ a {
 		display: inline-block;
 		position: absolute;
 		white-space: nowrap;
-		left: 0;
-		top: 0;
 
 		&.is-visible {
 			position: relative;
@@ -214,7 +185,7 @@ xtype
 			@include center(y);
 			height: 90%;
 			width: 1px;
-			background-color: $color-1;
+			background-color: #d43076;
 		}
 
 		&.waiting::after {
